@@ -1,5 +1,5 @@
-let homeScore = 12
-let guestScore = 5
+let homeScore = 0
+let guestScore = 0
 
 function homeOne() {
     homeScore += 1
@@ -46,18 +46,3 @@ function resetScore() {
 }
 
 
-
-
-
-
-
-
-// ="homeOne()">+1</button>
-//                 <button onclick="homeTwo()">+2</button>
-//                 <button onclick="homeThree()">+3</button>
-//             </div>
-//             <div>
-//                 <h3>GUEST</h3>
-//                 <button onclick="guestOne()">+1</button>
-//                 <button onclick="guestTwo()">+2</button>
-//                 <button onclick="guestThree()
