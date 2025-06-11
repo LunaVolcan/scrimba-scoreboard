@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'CursedTimer';
+    src: url('./fonts/CursedTimerUlil-Aznm.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VerdanaBold';
+    src: url('./fonts/Verdana-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: center;  
+    gap: 4rem;                
+}
+
+h3 {
+     font-family: 'VerdanaBold', sans-serif;
+    font-size: 1.5rem;
+    color: #EEEEEE;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#home-score,
+#guest-score {
+    font-family: 'CursedTimer', monospace;
+    font-size: 5rem;
+    color: #f94f6d;
+    letter-spacing: 2px;
+    background: #080001;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    align-items: center;
+}
+
+.add-home-score, .add-guest-score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem ;
+}
+
+.add-score-btn {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'CursedTimer', monospace;
+    color: #FFFFFF;
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: #9AABD8 solid 1px;
+    border-radius:5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+    padding: .4rem
+}
+.add-score-btn:hover {
+    background-color: #9AABD8;
+    color: #1B244A;
+}
+.add-score-btn:active {
+    background-color: #9AABD8;
+}
+
+.reset-btn {
+     display: flex;
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+button {
+    font-family: 'VerdanaBold', sans-serif;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    background-color: #f94f6d;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.10s ease;
+    padding: .6rem 1.5rem;
+}
+
+button:hover {
+    background-color: #ff728a;
+    /* color: #000; */
+    border: none;
+}
+
+
